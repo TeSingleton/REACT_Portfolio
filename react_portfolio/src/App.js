@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-import { Nav } from "./components/Nav";
+// import { Nav } from "./components/Nav";
 import { Bio} from "./components/Bio";
 import {Body} from "./components/Body";
 
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Nav/>
+      {/* <Nav/> */}
       <Bio/>
       <Body/>
       <div

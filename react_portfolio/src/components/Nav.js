@@ -12,3 +12,5 @@ export const Nav=()=>{
 }
 
 // todo style each nav item and add href a tag links to specified items.
+
+// todo consolidate the nav into the header component
