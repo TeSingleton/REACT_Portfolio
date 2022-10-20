@@ -29,6 +29,11 @@
   /* todo remove list styling */
   /* todo format `li` items so they are evenly spread horizontally across the nav section */
 }
+
+.Body{
+  display: flex;
+  /* todo use flex to organize the projects in a grid style on the page */
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
