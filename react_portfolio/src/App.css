@@ -10,10 +10,20 @@ GREY/PURPLE/WHITE */
 }
 
 .Header {
+  min-height: 6vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: left;
   height: 3em;
+  transition: all .7s ease-in;
   /* Todo Add Background image  */
 }
+
+/* image{
+  float: right;
+} */
 
 .Footer {
   text-align: center;
@@ -21,19 +31,35 @@ GREY/PURPLE/WHITE */
   /* Todo Add Background image */
 }
 
-.Nav, .navlist, .ul, .li{
+ ul, .navlist {
   align-items: center;
   text-align: center;
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  /* todo change bg color */
+  /* list-style: none; */
+  /* display: flex; */
+  /* list-style: none;
   display: flex;
   padding-left: 2em;
-  padding-right: 2em;
-
- 
-
+  padding-right: 2em; */
   /* todo align items centered */
   /* todo remove list styling */
   /* todo format `li` items so they are evenly spread horizontally across the nav section */
+}
+li{
+  float: left;
+  /* display: inline; */
+}
+
+li a{
+display: block;
+padding: 8px;
+background-color: #dddddd;
+text-align: center;
 }
 
 

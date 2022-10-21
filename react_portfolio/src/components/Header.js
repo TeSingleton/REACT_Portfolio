@@ -4,12 +4,15 @@ export const Header =()=>{
     return(
         <div>
         <h1 className="Header">Svante McDaniel</h1>
+        {/* <image/>  */}
+        <nav className='navDiv text-white'>
           <ul className='navlist'>
-            <li className='bio'>Bio</li>
-            <li className='projects'>Projects</li>
-            <li className='resume'>Resume</li>
-            <li className='contact'>Contact</li>
+            <li className='bio'><a href='#bioDiv'>Bio</a></li>
+            <li className='projects'><a href='#projectDiv'>Projects</a></li>
+            <li className='resume'><a>Resume</a></li>
+            <li className='contact'><a>Contact Me</a></li>
         </ul>
+        </nav>
         </div>
     )
 }

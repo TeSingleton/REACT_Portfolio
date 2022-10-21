@@ -1,19 +1,20 @@
 import React from "react";
+
 import "./App.css";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-// import { Nav } from "./components/Nav";
-import { Bio} from "./components/Bio";
-import {Body} from "./components/Body";
+import { Bio } from "./components/Bio";
+import { Body } from "./components/Body";
+import ContactMe, { Contact } from "./components/Contact";
 
 const App = () => {
   const name = "Svante'";
   return (
     <>
       <Header />
-      {/* <Nav/> */}
-      <Bio/>
-      <Body/>
+      <Bio />
+      <Body />
+      <ContactMe/>
       <div
         className="App"
         style={{
@@ -28,6 +29,5 @@ const App = () => {
     </>
   );
 };
-
 
 export default App;
