@@ -4,10 +4,14 @@ export const Body =()=>{
     return(
         <main>
             <div className='projectDiv'>
-                <p>Project 1</p>
-                <p>Project 2</p>
-                <p>Project 3</p>
-                <p>Project 4</p>
+                <p><a><img src=''/>Project 1</a></p>
+                <p><a><img/>Project 1</a></p>
+                <p><a><img/>Project 1</a></p>
+                <p><a><img/>Project 1</a></p>
+                <p><a><img/>Project 1</a></p>
+             <p><a><img/>Project 1</a></p>
+                <p><a><img/>Project 1</a></p>
+             
             </div>
         </main>
     )
