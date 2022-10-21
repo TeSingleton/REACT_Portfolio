@@ -62,12 +62,35 @@ background-color: #dddddd;
 text-align: center;
 }
 
+.contactDiv{
+  display: flex;
+  align-items: center;
+}
+
+.contactForm{
+  display: flex;
+}
+
+.submitForm{
+  background-color: lightpink;
+  color:white
+}
+
 
 
 .Body {
   display: flex;
   flex-direction: row;
   /* todo use flex to organize the projects in a grid style on the page */
+}
+
+img{
+  border-radius: 50%;
+  max-height: 250px;
+ float: right;
+ border: 1px solid;
+ /* padding: 10px; */
+ box-shadow: 5px 10px #693c73;
 }
 /* .App-logo {
   height: 40vmin;

@@ -9,8 +9,8 @@ export const Header =()=>{
           <ul className='navlist'>
             <li className='bio'><a href='#bioDiv'>Bio</a></li>
             <li className='projects'><a href='#projectDiv'>Projects</a></li>
-            <li className='resume'><a>Resume</a></li>
-            <li className='contact'><a>Contact Me</a></li>
+            <li className='resume'><a href='https://docs.google.com/document/d/1ESQBtegW2ueaTjKw_Eubmul2iaKJ59k_V-OWHH92ctA/edit?usp=sharing'>Resume</a></li>
+            <li className='contact'><a href='#contactDiv' >Contact Me</a></li>
         </ul>
         </nav>
         </div>
