@@ -15,7 +15,7 @@ const App = () => {
       <Bio />
       <Body />
       <ContactMe/>
-      <div
+      {/* <div
         className="App"
         style={{
           backgroundColor: "blue",
@@ -24,7 +24,7 @@ const App = () => {
       >
         <h1>Hi {name}</h1>
         <h2>This is the start of something great</h2>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
