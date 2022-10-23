@@ -6,7 +6,7 @@ export const Bio =()=>{
       
             <div>
                 <h2> About Me
-                <img src='https://avatars.githubusercontent.com/u/104960721?v=4'/>
+                <img className='bioAvi' src='https://avatars.githubusercontent.com/u/104960721?v=4'/>
                 </h2>
                 <p>Thank you for visiting my Portfolio. 
                 <br/> 
