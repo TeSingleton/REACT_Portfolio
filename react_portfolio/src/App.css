@@ -24,6 +24,20 @@ GREY/PURPLE/WHITE */
   /* Todo Add Background image  */
 }
 
+.nameIcon{
+  display: block;
+  margin-left: auto; 
+   margin-right: auto;
+  /* width: 40%; */
+  opacity: .8;
+  border-radius: 50%;
+  max-height: 250px;
+ /* float: right; */
+ border: 1px solid;
+ /* padding: 10px; */
+ box-shadow: 5px 10px #693c73;
+}
+
 /* image{
   float: right;
 } */
@@ -156,12 +170,16 @@ text-align: center; */
 }
 
 .bioAvi{
+  display: block;
   border-radius: 50%;
   max-height: 250px;
- float: right;
+/* float: right;  */
  border: 1px solid;
  /* padding: 10px; */
  box-shadow: 5px 10px #693c73;
+  margin-left: auto; 
+   margin-right: auto;
+  
 }
 
 .projectDiv{

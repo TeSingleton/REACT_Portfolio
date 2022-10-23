@@ -7,7 +7,7 @@ export const Body = () => {
         <div class="tile">
           <div class="tile is-parent is-vertical ">
             <article class="tile is-child box">
-              {/* <!-- Put any content you want --> */}
+            
               <p>
                 <a href="https://github.com/TeSingleton/TS-Code">
                   <img
@@ -20,7 +20,7 @@ export const Body = () => {
               </p>
             </article>
             <article class="tile is-child box">
-              {/* <!-- Put any content you want --> */}
+            
               <p>
                 <a href="https://github.com/TeSingleton/Inscription_Notepad">
                   <img
@@ -35,7 +35,7 @@ export const Body = () => {
           </div>
           <div class="tile is-parent is-vertical">
             <article class="tile is-child box">
-              {/* <!-- Put any content you want --> */}
+             
               <p>
                 <a href="https://github.com/TeSingleton/Associate-Profile-Generator">
                   <img
@@ -48,7 +48,7 @@ export const Body = () => {
               </p>
             </article>
             <article class="tile is-child box">
-              {/* <!-- Put any content you want --> */}
+             
               <p>
                 <a href="https://github.com/TeSingleton/DearME_Readme_Generator">
                   <img
@@ -66,7 +66,7 @@ export const Body = () => {
       </div>
       <div class="tile is-parent is-vertical">
         <article class="tile is-child box ">
-          {/* <!-- Put any content you want --> */}
+         
           <p>
             <a href="https://github.com/TeSingleton/7D-Work-Day-Planner">
               <img
@@ -79,7 +79,7 @@ export const Body = () => {
           </p>
         </article>
         <article class="tile is-child box">
-          {/* <!-- Put any content you want --> */}
+         
           <p>
             <a href="https://github.com/TeSingleton/The-Doppler/blob/main/README.md">
               <img
@@ -98,4 +98,4 @@ export const Body = () => {
   );
 };
 
-// todo add links and photos to each project
+// todo add links and photos to each project✅

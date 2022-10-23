@@ -4,11 +4,21 @@ import React, { Component } from "react";
 
 import { useForm } from "react-hook-form";
 
+import { Header } from "./Header";
+
+import { useRef } from 'react';
+
 const onSubmit = (data)=>{
     console.log(data)
 }
 
+
 export default function ContactMe() {
+  const ref =useRef(null);
+
+  const handleClick =()=>{
+      ref.current?.scrollIntoView({behavior: 'smooth'});
+  }
   const { register, handleSubmit, errors } = useForm();
   return (
     <center>
@@ -29,7 +39,7 @@ export default function ContactMe() {
 <br/>
 <br/>
 <br/>
-      <div className="contactDiv"> 
+      <div className="contactDiv" id="contact" ref={ref}> 
     <form className='contactForm' onSubmit={handleSubmit}>
     <div class="control">
   <input class="input is-hovered" type="text" placeholder="Name"  />
