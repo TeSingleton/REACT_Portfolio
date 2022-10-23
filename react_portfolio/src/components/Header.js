@@ -9,7 +9,7 @@ export const Header = () => {
   };
   return (
     
-    <div className="container">
+    <div className="container headerDiv">
     
       <div className="notification is-primary">
         <nav className="level">
