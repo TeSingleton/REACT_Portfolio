@@ -12,7 +12,7 @@ export const Header =()=>{
   <a href='#projectDiv'>Projects</a>
   </p>
   <p className="level-item has-text-centered name_logo">
-    {/*  */}
+    {/* todo add bulma styling to the Avi */}
     <img className='bioAvi' src='https://avatars.githubusercontent.com/u/104960721?v=4'/>
   </p>
   <p className="level-item has-text-centered resume ">
@@ -28,3 +28,4 @@ export const Header =()=>{
 }
 
 // todo style background and font color 
+// todo connect links to the proper elements

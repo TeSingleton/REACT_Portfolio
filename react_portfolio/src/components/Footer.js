@@ -2,7 +2,7 @@ import React, { Component }  from 'react';
 import GithubIcon from "../images/iconmonstr-github-2-24.png"
 import TwitterIcon from "../images/iconmonstr-twitter-2-24.png"
 import LinkedinIcon from "../images/iconmonstr-linkedin-2-24.png"
-import NameLogo from "../images/namelogo.png"
+import NameLogo from "../images/namelogo2.png"
 export const Footer =()=>{
     return(
         <footer class="footer">

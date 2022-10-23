@@ -12,21 +12,32 @@ export default function ContactMe() {
   const { register, handleSubmit, errors } = useForm();
   return (
     <center>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
       <div className="contactDiv"> 
     <form className='contactForm' onSubmit={handleSubmit}>
-      <input type="name" placeholder="name" name="name"></input>
-     
-      <input type="text" placeholder="email" name="email"></input>
-      
-      <input 
-        type="tel"
-        placeholder="Phone#"
-        name="phone"
-        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-      ></input> 
-      <textarea className="textarea" type='text' placeholder="Say Something" size="50"></textarea>
-
-      <input classNames="subButton textarea is-info" type="submit" className="submitForm"></input>
+    <div class="control">
+  <input class="input is-hovered" type="text" placeholder="Name"  />
+  <input class="input is-hovered" type="text" placeholder="Email"/>
+  <input class="input is-hovered" type="text" placeholder="Phone#"/>
+  <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
+  <button class="button is-info is-light is-large">Submit</button>
+</div>
     </form>
     </div>
     </center>
