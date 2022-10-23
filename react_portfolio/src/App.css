@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css";
 
 /* TODO : COLORS 
 GREY/PURPLE/WHITE */
@@ -11,14 +9,17 @@ GREY/PURPLE/WHITE */
 
 .Header {
   /* margin: auto;
-  width: 50%;
   min-height: 6vh;
   box-sizing: border-box;
+  height: 3em; */
+  /* width: 50%;
+  
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: left;
-  height: 3em;
+  
   transition: all .7s ease-in; */
   /* Todo Add Background image  */
 }
@@ -27,46 +28,53 @@ GREY/PURPLE/WHITE */
   float: right;
 } */
 
+
 .Footer {
- margin: auto;
- width: 50%;
+
+ /* margin: auto;
+ width: 100%; */
  /* border:3px solid purple; */
- max-height: 80px;
- align-items: center;
+ /* max-height: 80px;
+ align-items: center; */
  
   /* Todo Add Background image */
 }
 
 .github, .githubIcon{
-  max-height: 10em;
+  /* float: right;
+  max-height: 10em; */
   /* ;
   color:black;
    align-self: center;  */
-   display:block;
+   /* display:block;
    margin-left: auto;
-   margin-right: auto;
+   margin-right: auto; */
    /*width: 20%; */
-   
+   /* padding: 1em; */
 
 } 
 
 .linkedin,.linkedIcon{
-  max-height: 10em;
+  /* float: right;
+  max-height: 10em; */
   /* max-height: 10em;
   color:black; */
-  display:block;
+  /* display:block;
   margin-left: auto;
   margin-right: auto;
-  
+  padding: 1em; */
   
 } 
 
  .twitter,.twitterIcon{
-  max-height: 10em;
+  /* float: right; */
+  /* max-height: 10em;
   color:black;
   display:block;
   margin-left: auto;
   margin-right: auto;
+  padding: 1em; */
+  
  
   
 } 
@@ -107,6 +115,16 @@ text-align: center; */
   /* display: flex;
   align-items: center; */
 }
+.textarea{
+  /* height: 25px; */
+}
+
+.subButton{
+  /* background-color: #693c73;
+  border: 4px double ; */
+  
+}
+
 
 .contactForm{
   /* display: flex; */
@@ -129,12 +147,12 @@ text-align: center; */
 }
 
 .projectImg{
-  border-radius: 50%;
+  /* border-radius: 50%;
   max-height: 250px;
  float: right; 
  border: 1px solid;
   padding: 1px; 
-  box-shadow: 5px 10px #060307; 
+  box-shadow: 5px 10px #060307;  */
 }
 
 .bioAvi{
@@ -147,8 +165,11 @@ text-align: center; */
 }
 
 .projectDiv{
-  display: flex;
+  margin:auto;
+  
+    display: flex;
   justify-content: center;
+  height: 75vh;
 }
 /* todo align items in a grid */
 
