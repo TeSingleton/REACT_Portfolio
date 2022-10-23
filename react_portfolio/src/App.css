@@ -28,11 +28,11 @@ GREY/PURPLE/WHITE */
 } */
 
 .Footer {
- /* margin: auto;
- width: 100%;
- border:3px solid purple;
+ margin: auto;
+ width: 50%;
+ /* border:3px solid purple; */
  max-height: 80px;
- align-items: center; */
+ align-items: center;
  
   /* Todo Add Background image */
 }
@@ -42,10 +42,10 @@ GREY/PURPLE/WHITE */
   /* ;
   color:black;
    align-self: center;  */
-   /* display:block;
+   display:block;
    margin-left: auto;
    margin-right: auto;
-   width: 20%; */
+   /*width: 20%; */
    
 
 } 
@@ -54,20 +54,20 @@ GREY/PURPLE/WHITE */
   max-height: 10em;
   /* max-height: 10em;
   color:black; */
-  /* display:block;
+  display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%; */
+  
   
 } 
 
  .twitter,.twitterIcon{
   max-height: 10em;
   color:black;
-  /* display:block;
+  display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%; */
+ 
   
 } 
 
@@ -117,21 +117,24 @@ text-align: center; */
   color:white */
 }
 
-
+/* html{
+  min-height: 100vh;
+} */
 
 .Body {
+  min-height: 100vh;
   /* display: flex;
   flex-direction: row; */
   /* todo use flex to organize the projects in a grid style on the page */
 }
 
 .projectImg{
-  /* border-radius: 50%;
+  border-radius: 50%;
   max-height: 250px;
- float: right; */
- /* border: 1px solid; */
-  padding: 10px; 
-  /* box-shadow: 5px 10px #060307;  */
+ float: right; 
+ border: 1px solid;
+  padding: 1px; 
+  box-shadow: 5px 10px #060307; 
 }
 
 .bioAvi{
