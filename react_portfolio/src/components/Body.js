@@ -94,3 +94,4 @@ export const Body = () => {
 
 // todo add links and photos to each project✅
 // todo center imgs
+// todo changhe link colors 

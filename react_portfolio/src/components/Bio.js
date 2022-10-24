@@ -22,8 +22,3 @@ export const Bio =()=>{
 }
 
 // todo text color 
-// export const Header =()=>{
-//     return(
-//         <h1 className="Header">Svante McDaniel</h1>
-//     )
-// }

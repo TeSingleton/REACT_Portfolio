@@ -3,6 +3,8 @@
 /* TODO : COLORS 
 GREY/PURPLE/WHITE */
 
+/* todo refactor css */
+
 .App {
   text-align: center;
 }
@@ -201,7 +203,7 @@ text-align: center; */
 
 h2,.subtitileH2{
 
-text-decoration: underline;
+
 /* border: #000000;
 border-style: ridge; */
 
@@ -209,8 +211,7 @@ border-style: ridge; */
 
 strong{
   color: white;
-border: #000000;
-border-style: ridge;
+
 }
 
 
