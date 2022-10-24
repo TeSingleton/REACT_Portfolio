@@ -41,15 +41,17 @@ export default function ContactMe() {
 <br/>
       <div className="contactDiv" id="contact" ref={ref}> 
     <form className='contactForm' onSubmit={handleSubmit}>
-    <div class="control">
-  <input class="input is-hovered" type="text" placeholder="Name"  />
-  <input class="input is-hovered" type="text" placeholder="Email"/>
-  <input class="input is-hovered" type="text" placeholder="Phone#"/>
-  <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
-  <button class="button is-info is-light is-large">Submit</button>
+    <div className="control">
+  <input className="input is-hovered" type="text" placeholder="Name"  />
+  <input className="input is-hovered" type="text" placeholder="Email"/>
+  <input className="input is-hovered" type="text" placeholder="Phone#"/>
+  <textarea className="textarea" placeholder="e.g. Hello world"></textarea>
+  <button className="button is-info is-light is-large">Submit</button>
 </div>
     </form>
     </div>
     </center>
   );
 }
+
+// todo resize input areas

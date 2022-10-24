@@ -5,8 +5,8 @@ import LinkedinIcon from "../images/iconmonstr-linkedin-2-24.png"
 import NameLogo from "../images/namelogo2.png"
 export const Footer =()=>{
     return(
-        <footer class="footer">
-        <div class="content has-text-centered">
+        <footer className="footer">
+        <div className="content has-text-centered footer2">
         <img src={NameLogo} alt="Svante" />
         
         <p className='github '><a href='https://github.com/TeSingleton'><img className='githubIcon' src={GithubIcon} alt="github logo"  /></a></p>
